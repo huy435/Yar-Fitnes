@@ -1,0 +1,139 @@
+body {
+    margin: 0;
+    background-color: black;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.header {
+    width: 100%;
+    height: 100px;
+    background-color: rgb(51, 51, 51);
+    display: flex;
+    flex-direction: row;
+}
+
+.logo {
+    display: flex;
+    flex-direction: column;
+    color: yellow;
+    text-align: center;
+    align-items: center;
+    margin-left: 20px;
+}
+
+.i-logo {
+    width: 50px;
+    height: 50px;
+    background-image: cover;
+    margin-top: 10px;
+}
+
+.l-t {
+    color: yellow;
+    font-size: 20px;
+    margin-top: 3px;
+    cursor: default;
+}
+
+.workout {
+    display: flex;
+    flex-direction: row;
+    text-align: center;
+}
+
+.def {
+    display: flex;
+    flex-direction: column;
+    margin-top: 30px;
+    margin-left: 50px;
+}
+
+.exercises {
+    color: rgb(78, 78, 78);
+    text-decoration: none;
+    font-size: 22px;
+    transition: 0.5s;
+}
+
+.outline {
+    width: 0;
+    height: 2px;
+    background-color: yellow;
+    margin-top: 7px;
+    transition: 0.5s;
+}
+
+.def:hover .exercises {
+    color: yellow;
+}
+
+.def:hover .outline {
+    width: 100%;
+}
+
+.articles {
+    color: rgb(78, 78, 78);
+    text-decoration: none;
+    font-size: 22px;
+    transition: 0.5s;
+}
+
+.def:hover .articles {
+    color: yellow;
+}
+
+.tren {
+    color: rgb(78, 78, 78);
+    text-decoration: none;
+    font-size: 22px;
+    transition: 0.5s;
+}
+
+.def:hover .tren {
+    color: yellow;
+}
+
+.schedule {
+    color: rgb(78, 78, 78);
+    text-decoration: none;
+    font-size: 17px;
+    transition: 0.5s;
+    margin-top: 4px;
+}
+
+.def:hover .schedule {
+    color: yellow;
+}
+
+.home {
+    background-color: rgb(29, 29, 29);
+    display: flex;
+    width: 201vh;
+    height: 89vh;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+}
+
+.r-y {
+    display: flex;
+    flex-direction: column;
+}
+
+.razrab {
+    color: white;
+    font-size: 40px;
+    position: relative;
+}
+
+.yasno {
+    color: white;
+    font-size: 25px;
+    position: relative;
+    opacity: 0;
+    transition: 0.7s;
+}
+
+.r-y:hover .yasno {
+    opacity: 5%;
+}``
